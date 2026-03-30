@@ -1,7 +1,6 @@
 package allakhverdieva.service;
 
 import allakhverdieva.model.User;
-
 import java.util.List;
 
 public interface UserService {

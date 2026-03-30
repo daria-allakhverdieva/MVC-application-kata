@@ -1,7 +1,6 @@
 package allakhverdieva.dao;
 
 import allakhverdieva.model.User;
-
 import java.util.List;
 
 public interface UserDao {
