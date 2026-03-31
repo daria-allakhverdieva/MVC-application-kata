@@ -19,7 +19,7 @@ public class UserController {
 
     @GetMapping("/users-page")
     public String getMainPage(Model model) {
-        model.addAttribute("users", userService.allUsers());
+        model.addAttribute("users", userService.getUsers());
         return "users/main-page";
     }
 
